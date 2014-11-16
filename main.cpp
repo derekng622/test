@@ -1,10 +1,14 @@
-#include <iostream>
+#include <stdio.h>
 
-using namespace std;
-
-int main()
+float VolumeOfTaper( float radius, float height )
 {
-    cout << "Hello Big World!" << endl;
-    return 0;
+    return 3.1416f * radius * radius * height / 3.0f;
 }
 
+int main(void)
+{
+    printf( "Hello git!\n" );
+    printf( "The volume of taper is %f\n",
+            VolumeOfTaper( 10.0f, 5.0f ) );
+    return 0;
+}
