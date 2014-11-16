@@ -18,9 +18,3 @@ int main(void)
     return 0;
 }
 
-//int main()
-//{
-//    cout << "Hello Big World!" << endl;
-//    return 0;
-//}
-
